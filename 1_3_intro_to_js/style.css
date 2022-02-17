@@ -2,22 +2,116 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 1em;
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 6em;
+  margin: 0.25em 0;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 5em;
   margin: 0.25em 0;
 }
 
 p {
-  font-family: serif;
   font-size: 1em;
+  margin: 0.25em auto;
+}
+.synopsis {
+  color: #f10f0f;        /* Light gray */
+  font-style: italic;
+}
+.synopsis em {
+  font-style: normal;
+}
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+
+  color: #FFF;                /* The rest is the same */
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
 }
 
-section {
-  padding: 2em 0;
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+.call-to-action:link,
+.call-to-action:visited {
+  font-style: italic;
+  background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #EEB75A;     /* Yellow */
+}
+
+#button-2 {
+  color: #5D6063;  /* Dark gray */
+}
+
+.box{
+  width: 600px;
+  height: 200px;
+  font-size: 3em;
+  background: #ecd6c7;
+  margin: 0 auto;/*區塊置中*/
+}
+
+.button_1_3{
+
+  font-size: 5em;
+  background: #c7d4ec;
+  margin: 0 auto;
+
 }

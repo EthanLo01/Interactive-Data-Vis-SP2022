@@ -8,11 +8,13 @@ const input = document.getElementById("pet-input")
 const button = document.getElementById('pet-submit')
 
 let petName;
-
+var counter =  0
 function petNameUpdate() {
     petName = input.value
     console.log(petName)
-    label.innerText = "Wow! I love the name " + petName
+
+    counter += 1
+    label.innerText = counter
     button.innerText = "Name it again."
     input.value = ""
 }
