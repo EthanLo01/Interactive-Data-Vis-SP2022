@@ -17,7 +17,7 @@ function petNameUpdate0() {
     counter += 1
     counter_c += 1
 
-    label.innerText = "All your pets are " + counter + "."
+    label.innerText = "You have a total of " + counter + " pets."
     label_0.innerText = `You have ${counter_c} cats.`
     
 }
@@ -29,7 +29,7 @@ function petNameUpdate1() {
     counter += 1
     counter_d = counter_d+1
 
-    label.innerText = "All your pets are " + counter + "."
+    label.innerText = "You have a total of " + counter + " pets."
     label_1.innerText = `You have ${counter_d} pigs.`
     
 }
@@ -41,7 +41,7 @@ function petNameUpdate2() {
     counter += 1
     counter_p += 1
 
-    label.innerText = "All your pets are " + counter + "."
+    label.innerText = "You have a total of " + counter + " pets."
     label_2.innerText = `You have ${counter_p} pigs.`
     
 }
