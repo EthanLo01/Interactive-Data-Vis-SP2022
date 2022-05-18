@@ -2,8 +2,12 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 1em;
-  color: #002A66;               /* Dark gray */
-  background-color: #BFCAD9;    /* Light gray */
+  /* color: #002A66;               Dark gray */
+  color: #032452;               /* Dark gray */
+  /* background-color: #BFCAD9;    Light gray */
+  background:radial-gradient(circle at center,#7abdc9,#274472);
+  /* background:linear-gradient(gray, #BFCAD9, gray); */
+  text-align:center;
 }
 
 h1 {
@@ -14,8 +18,31 @@ h1 {
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
+  color:#050A30;
 }
 
 p {
   font-size: 1em;
+  color:#050A30;
 }
+
+/* div {
+  background-color: lightblue;
+} */
+
+.div-1 {
+  background:radial-gradient(circle at center,#BFCAD9,gray);
+} 
+
+ul {
+  list-style-position:inside;
+   background-color:#C3E0E5; 
+   text-align:left;
+}
+
+img {
+  list-style-position:inside;
+   background-color:#C3E0E5; 
+   text-align:left;
+}
+
