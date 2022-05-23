@@ -1,0 +1,24 @@
+What is Options?
+
+Using interactive visualization technology, the price and trading volume trends of different options are displayed intuitively.
+
+Project:
+https://ethanlo01.github.io/Interactive-Data-Vis-SP2022/final_project/what_is_Options.html
+
+Repo:
+https://github.com/EthanLo01/Interactive-Data-Vis-SP2022/tree/main/final_project
+
+
+This project will visualize a day of options price. Since almost all the financial apps I know can only show one line in a chart, it will be extremely helpful that have different months, prices, and Call&Put in the same chart. So I am determined to do it by myself.  First, I get the data from the open market in Taiwan, and then use Python to process the data. Use D3's line chart to present my data. An option goal is to present the volume with a bar chart at the same time. Backgrounds and designs will feature calm, dark backgrounds and sharp, bright lines to increase the readability of the diagram while conveying a professional "financial style."  Ultimately, this project will provide a better understanding of how options are changing in price. The project is used as an auxiliary teaching material. This is a good thing for those who want to comprehend options better. It is also a project that I can put forward in the interview if I have the opportunity to enter the financial industry in the future.
+
+Data sources: 
+TAIWAN FUTURES EXCHANGE:
+https://www.taifex.com.tw/enl/eng3/optPrevious30DaysSalesData?menuid1=03
+
+
+However, due to some technical factors, not every filter option is available.
+
+202201W4_18250_C
+202201W4_18250_P
+
+If you want to use it, it is recommended to choose these two as a start!
